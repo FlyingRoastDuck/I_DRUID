@@ -1,5 +1,20 @@
 # [ICLR 2026] I-DRUID: Layout to image generation via instance-disentangled representation and unpaired data
 
+<br>
+<a ref="https://openreview.net/pdf?id=yB7FIFwJwN"><img src="https://img.shields.io/static/v1?label=paper&color=red&logo=arxiv&message=ICLR-openreview">
+
+<!-- > [Fengxiang Yang](https://flyingroastduck.github.io/)
+> [Tianyi Zheng]()
+> [Bangjie Yin]()
+> [Shice Liu]()
+> [Jinwei Chen]()
+> [Peng-Tao Jiang]()
+> and 
+> [Bo Li]()
+> <br>
+> vivo BlueImage Lab, vivo Mobile Communication Co., Ltd.
+<br> -->
+
 ## Introduction
 
 I-DRUID, a generalized L2I model through on-policy RL with disentangled features.
@@ -16,13 +31,13 @@ I-DRUID, a generalized L2I model through on-policy RL with disentangled features
 **VLMs and benchmarks used in this repo:**
 | Link | Name | Description  |
 | ------------------------------------------------------------------------------------------------ | -------------- | -------------------------------------------------------------------------------------------------------- |
-| <a href=" ">< img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a > | SD3-mid | SD3 base Model 
-| <a href="https://huggingface.co/FlyingRoastDuck/I_DRUID">< img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a > | I-DRUID | Our Pretrained Model 
-| <a href="https://huggingface.co/openbmb/MiniCPM-V-2_6">< img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a > | MINI-CPM | MINI-CPM for evaluation
-| <a href="https://github.com/idea-research/groundingdino">< img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a > | GDINO | Reward Model
-| <a href="https://huggingface.co/datasets/HuiZhang0812/LayoutSAM-eval">< img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a > | LayoutSAM-eval | Benchmark for Evaluation
-| <a href="https://huggingface.co/datasets/HuiZhang0812/LayoutSAM">< img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a > | LayoutSAM | One of our Training Data
-| <a href="https://github.com/LeyRio/MIG_Bench">< img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a > | COCO-MIG | Benchmark for Evaluation
+| <a href=" "><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a> | SD3-mid | SD3 base Model 
+| <a href="https://huggingface.co/FlyingRoastDuck/I_DRUID"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a> | I-DRUID | Our Pretrained Model 
+| <a href="https://huggingface.co/openbmb/MiniCPM-V-2_6"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a> | MINI-CPM | MINI-CPM for evaluation
+| <a href="https://github.com/idea-research/groundingdino"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a> | GDINO | Reward Model
+| <a href="https://huggingface.co/datasets/HuiZhang0812/LayoutSAM-eval"><img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a > | LayoutSAM-eval | Benchmark for Evaluation
+| <a href="https://huggingface.co/datasets/HuiZhang0812/LayoutSAM"><img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a> | LayoutSAM | One of our Training Data
+| <a href="https://github.com/LeyRio/MIG_Bench"><img src="https://img.shields.io/badge/🤗_HuggingFace-Benchmark-ffbd45.svg" alt="HuggingFace"></a> | COCO-MIG | Benchmark for Evaluation
 
 
 **Note:**
